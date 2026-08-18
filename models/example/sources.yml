@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: crm
+    database: CRM_ANALYTICS_DB
+    schema: BRONZE
+
+    tables:
+      - name: accounts
+        identifier: ACCOUNT
+
+      - name: contacts
+        identifier: CONTACT
+
+      - name: events
+        identifier: EVENT
+
+      - name: leads
+        identifier: LEAD
+
+      - name: opportunity
+        identifier: OPPORTUNITY
+
+      - name: order_items
+        identifier: ORDERITEM
+
+      - name: orders
+        identifier: CRM_ORDERS
+
+      - name: tasks
+        identifier: TASKS
+
+      - name: users
+        identifier: USER
